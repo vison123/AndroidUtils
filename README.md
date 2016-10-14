@@ -15,7 +15,7 @@ allprojects {
 ### Step 2. Add the dependency
 ```
 dependencies {
-	        compile 'com.github.vison123:AndroidUtils:v0.1.1'
+	        compile 'com.github.vison123:AndroidUtils:v0.1.2'
 	}
 ```
 
