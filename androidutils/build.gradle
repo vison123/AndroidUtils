@@ -28,4 +28,17 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:24.2.1'
     testCompile 'junit:junit:4.12'
+    /*rotrofit*/
+    compile 'com.squareup.retrofit2:retrofit:+'
+    compile 'com.squareup.retrofit2:converter-gson:+'
+
+    compile 'com.zhy:okhttputils:2.4.1'
+    compile 'com.squareup.okhttp3:okhttp-ws:3.4.1'
+    //日志工具,可显示线程,文件名,代码所在行号
+    compile 'com.orhanobut:logger:1.15'
+    //json解析
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.alibaba:fastjson:1.2.10'
+    //disklru缓存
+    compile 'com.jakewharton:disklrucache:2.0.2'
 }
