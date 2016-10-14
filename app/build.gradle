@@ -1,10 +1,12 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
+// 依赖库不能 apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.3"
     defaultConfig {
-        applicationId "com.vison.androidutils"
+       // applicationId "com.vison.androidutils"
+        //只能 apply plugin: 'com.android.application'才可以有applicationId
         minSdkVersion 15
         targetSdkVersion 24
         versionCode 1
